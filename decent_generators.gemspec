@@ -7,16 +7,14 @@ require "decent_generators/version"
 Gem::Specification.new do |s|
   s.name        = "decent_generators"
   s.version     = DecentGenerators::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of DecentGenerators."
-  s.description = "TODO: Description of DecentGenerators."
+  s.authors     = ["Andrew Warner"]
+  s.email       = ["wwarner.andrew@gmail.com"]
+  s.homepage    = "a-warner.github.io"
+  s.summary     = "Scaffold generators using decent_exposure standards"
+  s.description = "Scaffold generators using decent_exposure standards"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 4.0.0"
-
-  s.add_development_dependency "sqlite3"
 end
