@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = DecentGenerators::VERSION
   s.authors     = ["Andrew Warner"]
   s.email       = ["wwarner.andrew@gmail.com"]
-  s.homepage    = "a-warner.github.io"
+  s.homepage    = "http://a-warner.github.io"
   s.summary     = "Scaffold generators using decent_exposure standards"
   s.description = "Scaffold generators using decent_exposure standards"
 
